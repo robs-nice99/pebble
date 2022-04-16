@@ -302,7 +302,7 @@ See the {{ anchor('escaping guide', 'Escaping') }} for more information on how a
 escaping strategies that are available.
 
 ## Whitespace
-The first newline after a pebble tag is automatically ignored; all other whitespace is ignored by Pebble and will be
+The first newline after a pebble tag is automatically discarded (won't appear in the rendered output); all other whitespace will be
 included in the rendered output.
 
 Pebble provides a whitespace control modifier to trim leading or trailing whitespace adjacent to any pebble tag.
